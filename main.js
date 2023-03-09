@@ -44,7 +44,6 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       current.textContent = prevStore.slice(0, 5) + "...";
     }
-    current.textContent = prevStore;
   });
 
   decimal.addEventListener("click", function () {
